@@ -37,6 +37,16 @@ function App() {
 		};
 		setStudents([...students, newStudent]); // Añado el nuevo estudiante
 		console.log("Submitted: ", newStudent);
+		
+		setFullName("");
+		setEmail("");
+		setPhone("");
+		setImage("");
+		setProgram("");
+		setGraduation(false)
+		setGraduationYear(0);
+
+	
 	};
 	return (
 		<div className="App pt-20">
